@@ -1,0 +1,37 @@
+#!/bin/sh
+
+cd outputFilesFlop
+rm add/*.out
+rm dot/*.out
+rm mul/*.out
+rm sig/*.out
+rm softmax/*.out
+rm scalar/*.out
+rm tanh/*.out
+cd ..
+cd outputFilesFlop_Shared
+rm add/*.out
+rm dot/*.out
+rm mul/*.out
+rm sig/*.out
+rm softmax/*.out
+rm scalar/*.out
+rm tanh/*.out
+cd ..
+cd outputFilesTimeGPU
+rm add/*.out
+rm dot/*.out
+rm mul/*.out
+rm sig/*.out
+rm softmax/*.out
+rm scalar/*.out
+rm tanh/*.out
+cd ..
+cd outputFilesTimeGPU_Shared
+rm add/*.out
+rm dot/*.out
+rm mul/*.out
+rm sig/*.out
+rm softmax/*.out
+rm scalar/*.out
+rm tanh/*.out
