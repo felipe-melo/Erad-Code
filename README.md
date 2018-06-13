@@ -5,7 +5,7 @@ Este trabalho está relacionado a:
 2. Analise de desempenho do CUDA Profiler;
 3. Programação de paralelo para Placas gráficas.
 
-Este trabalho consiste em avaliar o desempenho da [biblioteca Theano](http://deeplearning.net/software/theano/index.html) em relação a realização de operações básicas de redes neurais artificiais em Placas gráficas, a ferramenta utilizada foi o [CUDA](https://www.geforce.com/hardware/technology/cuda) Profiler.
+O [artigo](https://github.com/felipe-melo/Erad-Code/blob/master/theano_cuda.pdf) consiste em avaliar o desempenho da [biblioteca Theano](http://deeplearning.net/software/theano/index.html) em relação a realização de operações básicas de redes neurais artificiais em Placas gráficas, a ferramenta utilizada foi o [CUDA](https://www.geforce.com/hardware/technology/cuda) Profiler.
  
 Dois tipos de métricas foram extraidos das execuções: O tempos de execução das operações e a quantidade de operações de ponto flutuante por segundo (flops).
 
